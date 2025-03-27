@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package edu.ijse.mvc;
+import edu.ijse.mvc.view.ItemView;
 
 /**
  *
@@ -14,7 +15,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello");
+        new ItemView().setVisible(true);
         // TODO code application logic here
     }
     
